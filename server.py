@@ -51,4 +51,11 @@ def receive():
 
 
 print("Server is listening...")
-receive()
+
+
+def main():
+    receive()
+
+
+if __name__ == '__main__':
+    main()
